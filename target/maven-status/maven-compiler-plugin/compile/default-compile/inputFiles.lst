@@ -1,0 +1,16 @@
+D:\programming\spring_masterclass\src\main\java\pl\training\shop\payments\Payment.java
+D:\programming\spring_masterclass\src\main\java\pl\training\shop\Application.java
+D:\programming\spring_masterclass\src\main\java\old\LoggingPaymentService.java
+D:\programming\spring_masterclass\src\main\java\pl\training\shop\payments\PaymentRepository.java
+D:\programming\spring_masterclass\src\main\java\pl\training\shop\payments\UUIDPaymentIdGenerator.java
+D:\programming\spring_masterclass\src\main\java\pl\training\shop\payments\PaymentService.java
+D:\programming\spring_masterclass\src\main\java\pl\training\shop\payments\PaymentRequest.java
+D:\programming\spring_masterclass\src\main\java\pl\training\shop\payments\PaymentConsoleLogger.java
+D:\programming\spring_masterclass\src\main\java\pl\training\shop\payments\PaymentIdGenerator.java
+D:\programming\spring_masterclass\src\main\java\pl\training\shop\payments\FakePaymentService.java
+D:\programming\spring_masterclass\src\main\java\pl\training\shop\payments\LocalMoney.java
+D:\programming\spring_masterclass\src\main\java\pl\training\shop\payments\PaymentStatus.java
+D:\programming\spring_masterclass\src\main\java\pl\training\shop\payments\PaymentsConfiguration.java
+D:\programming\spring_masterclass\src\main\java\pl\training\shop\payments\HashMapPaymentRepository.java
+D:\programming\spring_masterclass\src\main\java\pl\training\shop\payments\IncrementalPaymentIdGenerator.java
+D:\programming\spring_masterclass\src\main\java\pl\training\shop\payments\LogPayments.java

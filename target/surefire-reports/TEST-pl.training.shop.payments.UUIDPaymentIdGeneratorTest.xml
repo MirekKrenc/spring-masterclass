@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="pl.training.shop.payments.UUIDPaymentIdGeneratorTest" time="1.487" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="D:\programming\spring_masterclass\target\test-classes;D:\programming\spring_masterclass\target\classes;C:\Users\kremi\.m2\repository\org\springframework\spring-context\5.2.9.RELEASE\spring-context-5.2.9.RELEASE.jar;C:\Users\kremi\.m2\repository\org\springframework\spring-aop\5.2.9.RELEASE\spring-aop-5.2.9.RELEASE.jar;C:\Users\kremi\.m2\repository\org\springframework\spring-beans\5.2.9.RELEASE\spring-beans-5.2.9.RELEASE.jar;C:\Users\kremi\.m2\repository\org\springframework\spring-core\5.2.9.RELEASE\spring-core-5.2.9.RELEASE.jar;C:\Users\kremi\.m2\repository\org\springframework\spring-jcl\5.2.9.RELEASE\spring-jcl-5.2.9.RELEASE.jar;C:\Users\kremi\.m2\repository\org\springframework\spring-expression\5.2.9.RELEASE\spring-expression-5.2.9.RELEASE.jar;C:\Users\kremi\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\kremi\.m2\repository\org\javamoney\moneta\moneta-core\1.4.2\moneta-core-1.4.2.jar;C:\Users\kremi\.m2\repository\org\javamoney\moneta\moneta-convert\1.4.2\moneta-convert-1.4.2.jar;C:\Users\kremi\.m2\repository\org\javamoney\moneta\moneta-convert-imf\1.4.2\moneta-convert-imf-1.4.2.jar;C:\Users\kremi\.m2\repository\org\javamoney\moneta\moneta-convert-ecb\1.4.2\moneta-convert-ecb-1.4.2.jar;C:\Users\kremi\.m2\repository\javax\money\money-api\1.1\money-api-1.1.jar;C:\Users\kremi\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\kremi\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\kremi\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar;C:\Users\kremi\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\kremi\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\kremi\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\kremi\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\kremi\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;C:\Users\kremi\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\kremi\.m2\repository\net\bytebuddy\byte-buddy\1.10.5\byte-buddy-1.10.5.jar;C:\Users\kremi\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.5\byte-buddy-agent-1.10.5.jar;C:\Users\kremi\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\kremi\.m2\repository\org\mockito\mockito-junit-jupiter\3.3.3\mockito-junit-jupiter-3.3.3.jar;"/>
+    <property name="java.vm.vendor" value="Red Hat, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://access.redhat.com/"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="D:\JDK\java-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\kremi\AppData\Local\Temp\surefire13675845914648672111\surefirebooter14836281336886314250.jar C:\Users\kremi\AppData\Local\Temp\surefire13675845914648672111 2020-12-28T18-16-08_878-jvmRun1 surefire9275885685381361091tmp surefire_011971073367956008930tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\programming\spring_masterclass\target\test-classes;D:\programming\spring_masterclass\target\classes;C:\Users\kremi\.m2\repository\org\springframework\spring-context\5.2.9.RELEASE\spring-context-5.2.9.RELEASE.jar;C:\Users\kremi\.m2\repository\org\springframework\spring-aop\5.2.9.RELEASE\spring-aop-5.2.9.RELEASE.jar;C:\Users\kremi\.m2\repository\org\springframework\spring-beans\5.2.9.RELEASE\spring-beans-5.2.9.RELEASE.jar;C:\Users\kremi\.m2\repository\org\springframework\spring-core\5.2.9.RELEASE\spring-core-5.2.9.RELEASE.jar;C:\Users\kremi\.m2\repository\org\springframework\spring-jcl\5.2.9.RELEASE\spring-jcl-5.2.9.RELEASE.jar;C:\Users\kremi\.m2\repository\org\springframework\spring-expression\5.2.9.RELEASE\spring-expression-5.2.9.RELEASE.jar;C:\Users\kremi\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\kremi\.m2\repository\org\javamoney\moneta\moneta-core\1.4.2\moneta-core-1.4.2.jar;C:\Users\kremi\.m2\repository\org\javamoney\moneta\moneta-convert\1.4.2\moneta-convert-1.4.2.jar;C:\Users\kremi\.m2\repository\org\javamoney\moneta\moneta-convert-imf\1.4.2\moneta-convert-imf-1.4.2.jar;C:\Users\kremi\.m2\repository\org\javamoney\moneta\moneta-convert-ecb\1.4.2\moneta-convert-ecb-1.4.2.jar;C:\Users\kremi\.m2\repository\javax\money\money-api\1.1\money-api-1.1.jar;C:\Users\kremi\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\kremi\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\kremi\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar;C:\Users\kremi\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\kremi\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\kremi\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\kremi\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\kremi\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;C:\Users\kremi\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\kremi\.m2\repository\net\bytebuddy\byte-buddy\1.10.5\byte-buddy-1.10.5.jar;C:\Users\kremi\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.5\byte-buddy-agent-1.10.5.jar;C:\Users\kremi\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\kremi\.m2\repository\org\mockito\mockito-junit-jupiter\3.3.3\mockito-junit-jupiter-3.3.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\kremi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="D:\JDK\java-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\programming\spring_masterclass"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\kremi\AppData\Local\Temp\surefire13675845914648672111\surefirebooter14836281336886314250.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.8+10-LTS"/>
+    <property name="user.name" value="kremi"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\kremi\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugzilla.redhat.com/enter_bug.cgi"/>
+    <property name="java.io.tmpdir" value="C:\Users\kremi\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2020.2.3"/>
+    <property name="java.version" value="11.0.8"/>
+    <property name="user.dir" value="D:\programming\spring_masterclass"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\JDK\java-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\app\kremi\product\12.2.0\dbhome_1\bin;C:\Program Files\Java\jdk1.8.0_162\bin;D:\JDK\java-11\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Calibre2\;C:\WINDOWS\System32\OpenSSH\;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.2\bin\;C:\Program Files (x86)\Brackets\command;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Server\4.2\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\kremi\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\kremi\AppData\Local\Programs\Python\Python37\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\app\kremi\product\12.2.0\dbhome_1\bin;D:\JDK\java-11\bin;C:\Program Files\Java\jdk1.8.0_162\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Calibre2\;C:\WINDOWS\System32\OpenSSH\;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Brackets\command;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Microsoft VS Code\bin;D:\Anaconda3;D:\Anaconda3\Library\mingw-w64\bin;D:\Anaconda3\Library\usr\bin;D:\Anaconda3\Library\bin;D:\Anaconda3\Scripts;C:\Program Files (x86)\Google\Chrome\Application;C:\Git\cmd;C:\IT\node-v7.10.1-win-x64;C:\heroku\bin;C:\Users;C:\Users\k;D:\bin\apache-maven-3.6.3\bin;C:\Users\kremi\AppData\Roaming\npm;D:\programming\gradle\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.2\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\bin;C:\Program Files\MySQL\MySQL Workbench 8.0 CE;C:\Users\kremi\AppData\Local\Yarn\bin;E:\tools\ffmpeg\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Red Hat, Inc."/>
+    <property name="java.vm.version" value="11.0.8+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="shouldGenerateValidId" classname="pl.training.shop.payments.UUIDPaymentIdGeneratorTest" time="1.487"/>
+</testsuite>
